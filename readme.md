@@ -13,13 +13,11 @@ their initial complexity.
 - ✅ **Help command**: `make help`, will display available make commands 
 
 ## Prerequisites 
-    - [Codium](https://vscodium.com/)
 
-    - [Surfer Waveform Viewer](https://surfer-project.org/)
-
-    - [Sigasi Community Edition](https://www.sigasi.com/)
-
-    - [GHDL](https://github.com/ghdl/ghdl)
+- [Codium](https://vscodium.com/)
+- [Surfer Waveform Viewer](https://surfer-project.org/)
+- [Sigasi Community Edition](https://www.sigasi.com/)
+- [GHDL](https://github.com/ghdl/ghdl)
 
 ## Process
 
