@@ -1,0 +1,7 @@
+out/
+tb_top 
+ e~tb_top .o
+.library_mapping.xml
+.settings/
+.project
+*.o
