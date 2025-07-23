@@ -1,12 +1,13 @@
 # General VHDL Config 
 
-General boilerplate with a GHDL+Surfer boilerplate to be used with
-Sigasi. 
+Utilizes GHDL for simulation, Sigasi for linting, and Surfer for 
+viewing waveforms
+
+## Features
+- ✅ **One-command workflows**: `make wave`, `make lint`, etc.  
+- ✅ **Automatic file discovery**: Finds all `.vhdl` files in `src/` and `tb/`  
+- ✅ **Waveform support**: Generates `.ghw` or `.vcd` for Surfer/GTKWave  
+- ✅ **Project renaming**: `make replace NEW_ENTITY=new_name`  
 
 
-For use
-A continuation of the general purpose VHDL/GHDL configuration with Makefile commands to ...
-
-* View output from surfer 
-* replace name of the current entity 
-
+Todo: Get accepting all VHDL file extensions 
