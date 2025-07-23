@@ -10,8 +10,7 @@ their initial complexity.
 - ✅ **Automatic file discovery**: Finds all `.vhdl` files in `src/` and `tb/`  
 - ✅ **Waveform support**: Generates `.ghw` or `.vcd` for Surfer/GTKWave  
 - ✅ **Project renaming**: `make replace NEW_ENTITY=new_name`  
-
-## To Use
+- ✅ **Help command**: `make help`, will display available make commands 
 - Install codium, Sigasi on codium, GHDL, GTKWave(optional for vcd, if you prefer GTKWave), and Surfer 
 
 - Run `make replace NEW_ENTITY=<entity_name>`
