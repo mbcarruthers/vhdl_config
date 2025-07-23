@@ -16,7 +16,7 @@ begin
       );
    process                              
    begin
-      report "VHDL working"; 
+      report "VHDL/GHDL+Surfer+Sigasi"; 
       wait for 25 ns; 
       for i in 0 to 7 loop
          set   <= '1';
