@@ -53,6 +53,7 @@ prepare: ## Ensure output directory exists
 
 NEW_ENTITY ?= $(VHDL_ENTITY)
 replace: ## alters the project into a new project
-	find . -type f -exec sed -i 's/$(VHDL_ENTITY)/$(NEW_ENTITY)/g' {} + 
+	find . -type f -not -path "*/*.git/*" -exec sed -i 's/$(VHDL_ENTITY)/$(NEW_ENTITY)/g' {} + 
+
 # In memorium 
 # yosys -m ghdl -p "ghdl -fexplicit -fsynopsys --std=08 --workdir=. top; hierarchy -top top; proc; opt; write_json design.json "
