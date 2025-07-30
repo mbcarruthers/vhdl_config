@@ -6,11 +6,11 @@ basic VHDL without having to worry about those god awful vendor IDE's and
 their initial complexity. 
 
 ## Features
-- ✅ **Makefile commands**: type `make help` to view commands
-- ✅ **Automatic file discovery**: Finds all `.vhdl` files in `src/` and `tb/`  
-- ✅ **Waveform support**: Generates `.ghw` or `.vcd` for Surfer/GTKWave  
-- ✅ **Project renaming**: `make replace NEW_ENTITY=new_name`  
-- ✅ **Help command**: `make help`, will display available make commands 
+-  **Makefile commands**: type `make help` to view commands
+-  **Automatic file discovery**: Finds all `.vhdl` files in `src/` and `tb/`  
+-  **Waveform support**: Generates `.ghw` or `.vcd` for Surfer/GTKWave  
+-  **Project renaming**: `make replace NEW_ENTITY=new_name`  
+-  **Help command**: `make help`, will display available make commands 
 
 ## Prerequisites 
 
@@ -28,5 +28,4 @@ their initial complexity.
 - then open in codium 
 
 
-Note: Surfer also is available as an extension however I find that creates too much going 
-on in one window, personally 
+Note: Surfer installed and added to .bashrc as surf
