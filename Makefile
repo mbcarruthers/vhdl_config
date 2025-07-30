@@ -23,7 +23,7 @@ help:
 
 all: wave ## Run simulation and open waveform
 
-once: clean surf
+once: clean elaborate surf
 
 lint: prepare ## Syntax check only
 	ghdl -s $(VHDL_ARGS) $(VHDL_FILES)
